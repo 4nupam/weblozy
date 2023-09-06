@@ -1,0 +1,33 @@
+.cp_container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
+    padding: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cp1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    padding: 12px;
+}
+#cp_red{
+    background-color: var(--red-color);
+}
+#cp_dark_yellow{
+    background-color: var(--dark-yellow-col);
+}
+
+#cp_yellow{
+    background-color: var(--yellow-color);
+}
+
+#cp_green{
+    background-color: var(--green-color);
+}
+#cp_blue{
+    background-color: var(--blue-color);
+}
+

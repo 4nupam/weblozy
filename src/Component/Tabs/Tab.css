@@ -1,0 +1,54 @@
+.tab_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem 0rem;
+}
+.tab-header,.tab_right{
+    display: flex;
+    align-items: center;
+    gap:10px;
+   
+   
+}
+.tab-header button{
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 4px;
+}
+.tab-header button:nth-child(1){
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.tab-header button:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.cross_circle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px;
+}
+.cd1_cross{
+    padding: 8px;
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    color: gray;
+}
+.tab_right button{
+    font-size: 14px;
+    margin-left: 14px;
+    background-color: #f2f4f8;
+    border: 1px solid #dfe4ef;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
